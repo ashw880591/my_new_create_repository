@@ -1,0 +1,23 @@
+<div class="container jumbotron">
+    <h1>Upper case </h1>
+    <h2 style="color: aqua">{{title|uppercase}}</h2><hr>
+    <hr>
+    <h1>Lower case</h1>
+    <h2 style="color: brown">{{title|lowercase}}</h2><hr><hr>
+    <h1>Title case</h1>
+    <h2 style="color: chartreuse">{{title}}</h2><hr><hr>
+    <h1>Today date and time</h1>
+    <h2>{{todaydate}}</h2><hr><hr>
+    <h1> Today Date</h1>
+    <h2>{{todaydate|date:'dd/MM/yyyy'}}</h2>
+    <h1>{{getGreetingTime}}</h1>
+
+
+    <hr>
+    <hr>
+    <ul>
+            <li><a (click)="setTitle( 'Good morning!' )">Good morning</a>.</li>
+            <li><a (click)="setTitle( 'Good afternoon!' )">Good afternoon</a>.</li>
+            <li><a (click)="setTitle( 'Good evening!' )">Good evening</a>.</li>
+          </ul>
+</div>
